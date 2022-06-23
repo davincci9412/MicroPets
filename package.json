@@ -1,0 +1,92 @@
+{
+  "name": "Pets",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "npm": "7.20.5",
+    "node": "14.17.4"
+  },
+  "dependencies": {
+    "@walletconnect/web3-provider": "^1.6.5",
+    "axios": "^0.21.1",
+    "bcryptjs": "^2.4.3",
+    "block_io": "^4.0.0",
+    "body-parser": "^1.18.3",
+    "bootstrap": "^4.6.0",
+    "classnames": "^2.3.1",
+    "cors": "^2.8.5",
+    "dotenv": "^9.0.2",
+    "env-cmd": "^10.1.0",
+    "express": "^4.17.1",
+    "foreman": "^3.0.1",
+    "is-empty": "^1.2.0",
+    "jsonwebtoken": "^8.3.0",
+    "jwt-decode": "^2.2.0",
+    "materialize-css": "^1.0.0",
+    "mongoose": "^5.3.11",
+    "node-cron": "^3.0.0",
+    "nodemon": "^2.0.7",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "postman-request": "^2.88.1-postman.30",
+    "promise-foreach": "^1.0.23",
+    "react": "^17.0.1",
+    "react-bootstrap": "^1.6.0",
+    "react-dom": "^17.0.1",
+    "react-google-login": "^5.2.2",
+    "react-loader-spinner": "^4.0.0",
+    "react-notifications-component": "^3.1.0",
+    "react-promise-tracker": "^2.1.0",
+    "react-redux": "^7.2.5",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^4.0.3",
+    "react-toastify": "^8.0.2",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0",
+    "styled-components": "^5.3.0",
+    "use-state-if-mounted": "^1.0.4",
+    "validator": "^10.9.0",
+    "web-vitals": "^1.1.1",
+    "web3": "^1.5.2",
+    "web3modal": "^1.9.4"
+  },
+  "devDependencies": {
+    "@blockstack/eslint-config": "^1.0.6",
+    "@blockstack/prettier-config": "0.0.6",
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^10",
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "ts-node": "^8.2.0",
+    "typescript": "^3.5.2"
+  },
+  "scripts": {
+    "start-dev": "react-scripts start",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test:app": "react-scripts test",
+    "test:contracts": "mocha",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "prettier": "@blockstack/prettier-config",
+  "proxy": "https://bscscan.com/"
+}

@@ -1,0 +1,9 @@
+[{"symbol":"admin","address":"0x23b6A96cE929eA950dA2338a3194584b9C5D9972 "},
+{"symbol":"Token","address":"0xb5cd545b4c0ba1e3096e19dfbcf93cbfc0904db7"},
+{"symbol":"Market","address":"0x0879903f7f0512991d3d39978bb44111f6384dfa"},
+{"symbol":"crateNFT","address":"0x5Ba3291fEC1104E6982a47C7576722cA9a682a65"},
+{"symbol":"akitaNFT","address":"0x304897662e655639fbd3C6a72cB6423Cbb09AD1D"},
+{"symbol":"kishuNFT","address":"0x7a6Ff85B6A4a6dF3D1301963529698854A8d137d"},
+{"symbol":"hokkaidoNFT","address":"0x37a7c5dDea97FF71eF5250093C9EcE29D8f36Be5"},
+{"symbol":"shibaNFT","address":"0xb9e281E30B9E6D95d7855d9aDd96866420891754"},
+{"symbol":"microNFT","address":"0xb20BFD0Ee4267079d42a1BfEc49840BB39FfA15d"}]
